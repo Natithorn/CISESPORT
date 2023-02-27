@@ -18,9 +18,13 @@ namespace CISESPORT
             string displaygame = tbDisplaygame.Text;
             string Mail = tbMail.Text;
             string Number = tbNumber.Text;
+            int iAge = 0;
             try
             {
                 _Newplayer = new player(name, Lastname, Id, Mj, displaygame, Mail, Number, iAge);
+
+                string Age = tbAge.Text;
+                iAge = int.Parse(tbAge.Text);
 
                 this.DialogResult= DialogResult.OK;
                 this.Close();
@@ -32,21 +36,6 @@ namespace CISESPORT
                 MessageBox.Show("ใส่ข้อมูลไม่ถูกต้อง");
                 return;
             }
-
-            try
-            {
-                string Age = tbAge.Text;
-                int iAge = Int32.Parse(tbAge.Text);
-            }
-            catch (FormatException ex)
-            {
-                MessageBox.Show("ใส่ข้อมูลไม่ถูกต้อง");
-                return;
-            }
-
-
-
-            
         }
         public player getPlayer() {
             return _Newplayer;
