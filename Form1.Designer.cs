@@ -45,6 +45,8 @@
             this.tbDisplaygame = new System.Windows.Forms.TextBox();
             this.tbAge = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.tbTeam = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -185,11 +187,29 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "อายุ";
             // 
+            // tbTeam
+            // 
+            this.tbTeam.Location = new System.Drawing.Point(431, 93);
+            this.tbTeam.Name = "tbTeam";
+            this.tbTeam.Size = new System.Drawing.Size(150, 31);
+            this.tbTeam.TabIndex = 17;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(368, 96);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(33, 25);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "ทีม";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.tbTeam);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tbAge);
             this.Controls.Add(this.tbDisplaygame);
@@ -233,5 +253,7 @@
         private TextBox tbDisplaygame;
         private TextBox tbAge;
         private Label label8;
+        private TextBox tbTeam;
+        private Label label9;
     }
 }

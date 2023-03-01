@@ -25,7 +25,6 @@ namespace CISESPORT
             formInfo.ShowDialog();
 
             if(formInfo.DialogResult == DialogResult.OK) {
-                MessageBox.Show("Test");
                 player newPlayer = formInfo.getPlayer();
                 formInfo.Close();
                 players.Add(newPlayer);
@@ -33,7 +32,7 @@ namespace CISESPORT
                 foreach(player player in players)
                 {
                     dataGridView1.Rows.Add(player.name_, player.Lastname, player.Id, player.Mj, 
-                                    player.displayname, player.Mail,player.Number,player.Age);
+                                    player.displayname, player.Mail,player.Number,player.Team, player.Age);
                 }
             }
         }

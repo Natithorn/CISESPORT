@@ -8,12 +8,12 @@ namespace CISESPORT
 {
     public class player
     {
-        public string name_, Lastname, Id, Mj, displayname, Mail, Number;
+        public string name_, Lastname, Id, Mj, displayname, Mail, Number,Team;
         public int Age = 0;
 
 
         public player(string name_, string Lastname, string Id, string Mj, string displaygame
-        , string Mail, string Number, int Age)
+        , string Mail, string Number,string Team , int Age)
         {
             this.name_ = name_;
             this.Lastname = Lastname;
@@ -22,6 +22,7 @@ namespace CISESPORT
             this.displayname = displaygame;
             this.Mail = Mail;
             this.Number = Number;
+            this.Team = Team;  
             this.Age = Age;
         }
     }

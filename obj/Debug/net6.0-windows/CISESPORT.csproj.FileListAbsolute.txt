@@ -16,3 +16,4 @@ C:\Users\Admin\Desktop\work\Lab OOP\CISESPORT\CISESPORT\obj\Debug\net6.0-windows
 C:\Users\Admin\Desktop\work\Lab OOP\CISESPORT\CISESPORT\obj\Debug\net6.0-windows\CISESPORT.pdb
 C:\Users\Admin\Desktop\work\Lab OOP\CISESPORT\CISESPORT\obj\Debug\net6.0-windows\CISESPORT.genruntimeconfig.cache
 C:\Users\Admin\Desktop\work\Lab OOP\CISESPORT\CISESPORT\obj\Debug\net6.0-windows\ref\CISESPORT.dll
+C:\Users\Admin\Desktop\work\Lab OOP\CISESPORT\CISESPORT\obj\Debug\net6.0-windows\CISESPORT.Team.resources

@@ -18,10 +18,11 @@ namespace CISESPORT
             string displaygame = tbDisplaygame.Text;
             string Mail = tbMail.Text;
             string Number = tbNumber.Text;
+            string Team = tbTeam.Text;
             int iAge = 0;
             try
             {
-                _Newplayer = new player(name, Lastname, Id, Mj, displaygame, Mail, Number, iAge);
+                _Newplayer = new player(name, Lastname, Id, Mj, displaygame, Mail, Number,Team, iAge);
 
                 string Age = tbAge.Text;
                 iAge = int.Parse(tbAge.Text);
